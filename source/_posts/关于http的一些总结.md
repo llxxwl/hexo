@@ -1,8 +1,9 @@
 ---
 title: 关于http的一些总结
-date: 2019-03-19 15:51:29
 tags: HTTP
 categories: 协议
+abbrlink: 42983
+date: 2019-03-19 15:51:29
 ---
 
 ## http在学习网络的过程中是必不可少的，所以在这里整理了一些关于HTTP的知识点

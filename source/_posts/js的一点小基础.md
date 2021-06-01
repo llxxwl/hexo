@@ -1,10 +1,11 @@
 ---
-title: js,jquery的一点小基础
-date: 2018-07-25 16:05:05
-tags: 
-- js
-- jQuery
+title: 'js,jquery的一点小基础'
+tags:
+  - js
+  - jQuery
 categories: web前端
+abbrlink: 56164
+date: 2018-07-25 16:05:05
 ---
 
 #### 一、javascript

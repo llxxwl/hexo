@@ -1,8 +1,9 @@
 ---
 title: mysql8.0的安装
-date: 2018-10-02 14:43:26
 tags: MySQL
 categories: MySQL
+abbrlink: 30461
+date: 2018-10-02 14:43:26
 ---
 
 ### Windows下MySQL安装

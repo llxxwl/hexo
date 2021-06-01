@@ -1,8 +1,9 @@
 ---
 title: phpdbg
-date: 2019-06-10 13:35:50
-tags: 调试 
+tags: 调试
 categories: PHP
+abbrlink: 27737
+date: 2019-06-10 13:35:50
 ---
 
 #### phpdbg是一个PHP的SAPI模块，可以在不用修改代码和不影响性能的情况下控制PHP的运行环境

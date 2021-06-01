@@ -1,8 +1,9 @@
 ---
 title: tp5基础
-date: 2018-11-30 09:15:51
 tags: tp5
-categories: PHP 
+categories: PHP
+abbrlink: 4954
+date: 2018-11-30 09:15:51
 ---
 
 ### 配置域名

@@ -1,8 +1,9 @@
 ---
 title: wamp下基础sql语句
-date: 2018-11-22 18:47:07
 tags: sql语句
 categories: MySQL
+abbrlink: 34883
+date: 2018-11-22 18:47:07
 ---
 
 ### 环境搭建

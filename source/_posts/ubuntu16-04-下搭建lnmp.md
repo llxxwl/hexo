@@ -1,8 +1,9 @@
 ---
 title: ubuntu16.04下搭建lnmp
-date: 2019-06-12 13:39:35
 tags: 环境搭建
 categories: PHP
+abbrlink: 64764
+date: 2019-06-12 13:39:35
 ---
 
 #### 记一次Linux下搭建lnmp环境走过的坑

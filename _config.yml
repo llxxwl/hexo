@@ -5,7 +5,7 @@
 # Site
 title: lpower
 subtitle:
-description:
+description: 在职菜鸟
 keywords:
 author: lpower
 language:
@@ -16,7 +16,13 @@ timezone:
 url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+#permalink: /posts/:abbrlink/
+#permalink_defaults:
+
+# abbrlink config
+#abbrlink:
+#alg: crc32
+#rep: hex
 
 # Directory
 source_dir: source
@@ -73,7 +79,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: cube
+theme: tomotoes
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -87,8 +93,35 @@ jsonContent:
     text: true
     path: true
     review: true
+  meta: false
   posts:
     title: true
-    text: true
+    date: true
     path: true
-    preview: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+
+# feed配置
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+# jsonContent配置
+
+# emoji 配置
+githubEmojis:
+  enable: true
+  className: github-emoji
+  unicode: false
+  styles:
+  localEmojis:

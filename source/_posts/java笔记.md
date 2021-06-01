@@ -1,8 +1,9 @@
 ---
 title: java笔记
-date: 2019-07-16 11:53:17
 tags: Java基础
 categories: Java
+abbrlink: 56103
+date: 2019-07-16 11:53:17
 ---
 
 #### Java是一门面向对象编程语言。一个Java程序可以认为是一系列对象的集合，而这些对象通过调用彼此的方法来协同工作。

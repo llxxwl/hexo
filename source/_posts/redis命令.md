@@ -1,8 +1,9 @@
 ---
 title: redis命令
-date: 2019-04-20 16:10:55
 tags: redis
 categories: 数据库
+abbrlink: 26704
+date: 2019-04-20 16:10:55
 ---
 
 #### redis常用命令

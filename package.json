@@ -5,18 +5,45 @@
   "hexo": {
     "version": "3.7.1"
   },
+  "scripts": {
+    "clean": "hexo clean",
+    "clean:yuque": "yuque-hexo clean",
+    "deploy": "yuque-hexo sync && hexo deploy",
+    "publish": "npm run clean && npm run deploy",
+    "dev": "hexo s",
+    "sync": "yuque-hexo sync",
+    "reset": "npm run clean:yuque && npm run sync"
+  },
   "dependencies": {
     "hexo": "^3.7.0",
+    "hexo-abbrlink": "^2.2.1",
     "hexo-asset-image": "0.0.3",
     "hexo-deployer-git": "^0.3.1",
+    "hexo-filter-github-emojis": "^3.0.4",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-category": "^0.1.3",
+    "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^0.2.1",
-    "hexo-generator-json-content": "^4.1.6",
+    "hexo-generator-json-content": "^4.2.3",
     "hexo-generator-tag": "^0.2.0",
+    "hexo-helper-qrcode": "^1.0.2",
     "hexo-renderer-ejs": "^0.3.1",
+    "hexo-renderer-less": "^2.0.2",
     "hexo-renderer-marked": "^0.3.2",
     "hexo-renderer-stylus": "^0.3.3",
-    "hexo-server": "^0.3.1"
+    "hexo-server": "^0.3.1",
+    "hexo-wordcount": "^6.0.1"
+  },
+  "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "luxiaowei-pbg73",
+    "repo": "myw2yp",
+    "token": "0j7Qmejiy8JWKxEys50vkuesl7t7k0qxQMgtkWn9",
+    "postPath": "source/_posts/yuque",
+    "cachePath": "yuque.json",
+    "adapter": "markdown"
+  },
+  "devDependencies": {
+    "yuque-hexo": "^1.7.0"
   }
 }

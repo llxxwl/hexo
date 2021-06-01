@@ -1,8 +1,9 @@
 ---
 title: php文件上传
-date: 2019-04-19 14:53:58
-tags: 代码  
+tags: 代码
 categories: PHP
+abbrlink: 37554
+date: 2019-04-19 14:53:58
 ---
 
 #### PHP实现文件上传
