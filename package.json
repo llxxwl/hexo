@@ -36,10 +36,10 @@
   },
   "yuqueConfig": {
     "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "luxiaowei-pbg73",
+    "login": "https://www.yuque.com/luxiaowei-pbg73",
     "repo": "myw2yp",
     "token": "0j7Qmejiy8JWKxEys50vkuesl7t7k0qxQMgtkWn9",
-    "postPath": "source/_posts/yuque",
+    "postPath": "source/_posts",
     "cachePath": "yuque.json",
     "adapter": "markdown"
   },
